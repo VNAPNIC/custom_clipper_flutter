@@ -65,7 +65,7 @@ class MyClipper extends CustomClipper<Path> {
     path.lineTo(0.0, size.height/2);
 
     // áp dụng Bezier Curves
-    // https://medium.com/flutter-community/paths-in-flutter-a-visual-guide-6c906464dcd0
+    // https://en.wikipedia.org/wiki/B%C3%A9zier_curve
     var firstControlPoint = new Offset(20, size.height);
     var firstEndPoint = new Offset(100, size.height);
 
